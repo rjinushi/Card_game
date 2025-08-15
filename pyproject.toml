@@ -4,4 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11.6"
-dependencies = []
+dependencies = [
+    "pyxel>=2.4.10",
+    "rich>=14.1.0",
+]

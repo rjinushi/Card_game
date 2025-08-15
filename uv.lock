@@ -1,0 +1,76 @@
+version = 1
+revision = 3
+requires-python = ">=3.11.6"
+
+[[package]]
+name = "card-game"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pyxel" },
+    { name = "rich" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "pyxel", specifier = ">=2.4.10" },
+    { name = "rich", specifier = ">=14.1.0" },
+]
+
+[[package]]
+name = "markdown-it-py"
+version = "4.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "mdurl" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz", hash = "sha256:cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3", size = 73070, upload-time = "2025-08-11T12:57:52.854Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/94/54/e7d793b573f298e1c9013b8c4dade17d481164aa517d1d7148619c2cedbf/markdown_it_py-4.0.0-py3-none-any.whl", hash = "sha256:87327c59b172c5011896038353a81343b6754500a08cd7a4973bb48c6d578147", size = 87321, upload-time = "2025-08-11T12:57:51.923Z" },
+]
+
+[[package]]
+name = "mdurl"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
+]
+
+[[package]]
+name = "pygments"
+version = "2.19.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887", size = 4968631, upload-time = "2025-06-21T13:39:12.283Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b", size = 1225217, upload-time = "2025-06-21T13:39:07.939Z" },
+]
+
+[[package]]
+name = "pyxel"
+version = "2.4.10"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2e/a5/0b59900fb5451aafef434dbe592bbc29856cfa69497f1479a8076d294340/pyxel-2.4.10-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:c3a80409f1f16ca036548750495bbfdeb8738fd3a93f2d6a1d8c020512fea23f", size = 4733447, upload-time = "2025-07-26T12:25:38.62Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/2f/78fa4386339db5c445bc094cb9d9ee29b0589a24b9b00245561c2fc79e31/pyxel-2.4.10-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:56e3c0d194c56ac08deb547209eca73c4b7872c9cdda2ee4653172d2fc4b72ed", size = 4467498, upload-time = "2025-07-26T12:25:40.862Z" },
+    { url = "https://files.pythonhosted.org/packages/db/c3/063bf93fc4bb1a162b961c9cface6d84fa8bd2309416395ce92fbbd13b6a/pyxel-2.4.10-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:eced7c0c0f0023bb8c346d1e511c05e83d1e33b19cd3fb3637f8d2d5902d314a", size = 4171770, upload-time = "2025-07-26T12:25:42.361Z" },
+    { url = "https://files.pythonhosted.org/packages/53/39/1715aae163b107fb4054a93ef14caad699969e59cd40c91d1e79aff3bbdd/pyxel-2.4.10-cp38-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:6ecdcb3673ac112f78779e43a753f241dae43b0512de815992c9c4be8a64c04a", size = 4181702, upload-time = "2025-07-26T12:25:43.516Z" },
+    { url = "https://files.pythonhosted.org/packages/3d/a1/e47ff8012552ec3e808bac9812f23a1bae9ac5c06c672f11dd4f719c2c18/pyxel-2.4.10-cp38-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:663165a94232e311e424c747aca38b3fc07f2e3f1e8703b41a0c93918fd8403f", size = 4571460, upload-time = "2025-07-26T12:25:45.217Z" },
+    { url = "https://files.pythonhosted.org/packages/65/86/f5717cf5bc57ed8f4811938354a940e1a659237fa520fdd262e934e870cc/pyxel-2.4.10-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:549c78add86c68a90ce1479bd009bff9b39900a167df30356d240dac3d1f3249", size = 4339285, upload-time = "2025-07-26T12:25:46.767Z" },
+    { url = "https://files.pythonhosted.org/packages/93/d6/99a342ef2e3b0c9ac3402a2788983770c7ea9c60793633d338b231b154dd/pyxel-2.4.10-cp38-abi3-win32.whl", hash = "sha256:a1527994b35cc9d7f83102b7a9f90fbcc69a48b552cfd483730ec7eb308d49d5", size = 4227618, upload-time = "2025-07-26T12:25:48.267Z" },
+    { url = "https://files.pythonhosted.org/packages/4b/db/d9a3ba42d333c713c5149c17e48de9b5b8fa500844817cf029d222ccba48/pyxel-2.4.10-cp38-abi3-win_amd64.whl", hash = "sha256:defb98e2c358922e556b31f11494e86b92b4e27c4f76480a252e76feb77294ea", size = 4451136, upload-time = "2025-07-26T12:25:49.601Z" },
+]
+
+[[package]]
+name = "rich"
+version = "14.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "markdown-it-py" },
+    { name = "pygments" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/fe/75/af448d8e52bf1d8fa6a9d089ca6c07ff4453d86c65c145d0a300bb073b9b/rich-14.1.0.tar.gz", hash = "sha256:e497a48b844b0320d45007cdebfeaeed8db2a4f4bcf49f15e455cfc4af11eaa8", size = 224441, upload-time = "2025-07-25T07:32:58.125Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e3/30/3c4d035596d3cf444529e0b2953ad0466f6049528a879d27534700580395/rich-14.1.0-py3-none-any.whl", hash = "sha256:536f5f1785986d6dbdea3c75205c473f970777b4a0d6c6dd1b696aa05a3fa04f", size = 243368, upload-time = "2025-07-25T07:32:56.73Z" },
+]

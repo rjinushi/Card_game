@@ -19,6 +19,7 @@ class TitleScene(Scene):
     
     def draw(self):
         super().draw()
+        pyxel.text(10, 10, "Title", 1)
 
 class GameScene(Scene):
     def __init__(self, app):

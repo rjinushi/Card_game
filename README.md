@@ -1,1 +1,1 @@
-# Card_game
+# Goetic Gambit(ゴエティック・ギャンビット)

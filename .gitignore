@@ -12,3 +12,8 @@ wheels/
 # Other
 *.bat
 *.lnk
+pyxel_examples/
+memo.md
+misaki_bdf_2021-05-05*
+rule*.md
+DEV_PLAN.md

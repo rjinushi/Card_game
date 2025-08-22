@@ -87,8 +87,6 @@ class GameScene(Scene):
         super().__init__(app)
         self.master_cards = MASTER_CARDS  # ゲームに登場する全カードのリスト
 
-        self.is_standby = False  # TODO: 現在未使用。将来的にターン開始時の準備フェーズなどで使用する可能性あり
-
         # プレイヤーオブジェクトの生成と初期化
         self.player1 = Player("Alice", 15, [], self.master_cards, [])
         self.player2 = Player("Bob", 15, [], self.master_cards, [])
@@ -157,7 +155,6 @@ class GameScene(Scene):
                 self.battle_wait = False
                 self.selected_card1 = None
                 self.selected_card2 = None
-                self.is_standby = False  # TODO: is_standby の役割を明確にする必要あり
 
     def draw(self):
         """
